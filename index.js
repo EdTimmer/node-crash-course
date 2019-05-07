@@ -44,7 +44,7 @@ const server = http.createServer((req, res) => {
       contentType = 'text/css';
       break;
     case '.json':
-      contentType = 'application/jason';
+      contentType = 'application/json';
       break;
     case '.png':
       contentType = 'image/png';
